@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navt {
+    @apply w-full h-20 flex content-center justify-between px-5 absolute border-b border-blue-900;
+  }
+  .btn {
+    @apply h-10 px-5 my-auto rounded-md uppercase  text-lg font-extrabold hover:ring-2 ring-blue-700 text-gray-200 bg-blue-700 shadow-md shadow-inner hover:bg-blue-600 hover:-tracking-tighter ease-in-out duration-500;
+  }
+  .baner {
+    @apply h-full h-screen  bg-gradient-to-r from-blue-500 to-blue-800 flex items-center justify-between;
+  }
+  .tittel {
+    @apply h-auto mx-8;
+  }
+  .bimg {
+    @apply h-96 w-auto;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "nninja2",
+  "version": "1.0.0",
+  "description": "landing for n ninja app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "b": "tailwindcss -i ./src/tail.css -o ./public/style.css -w"
+  },
+  "author": "nahid hasan",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  }
+}
